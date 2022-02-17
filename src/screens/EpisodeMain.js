@@ -104,6 +104,7 @@ export default function EpisodeMain() {
                                 horizontal={true}
                                 decelerationRate={0.2}
 
+
                             />
 
                         </SafeAreaView> : <LoadingImg />}

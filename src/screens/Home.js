@@ -1,5 +1,6 @@
 import React from 'react'
 import { Text, View } from 'react-native'
+import LoadingImg from '../components/LoadingImg'
 
 export default function Home() {
     return (

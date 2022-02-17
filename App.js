@@ -8,7 +8,12 @@ import { StyleSheet } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 const Tab = createBottomTabNavigator();
-
+// logo ve mesaj bildirim
+// consolları temizle
+//  ana sayfa
+//searchbar
+//assets kullanmadıklarını sil
+//fonts ekle
 
 
 
@@ -32,7 +37,6 @@ export default function App() {
               iconName = focused ? 'library-sharp' : 'library-sharp';
             }
 
-            // You can return any component that you like here!
             return <Ionicons name={iconName} size={size} color={color} />;
           },
           tabBarActiveTintColor: 'red',

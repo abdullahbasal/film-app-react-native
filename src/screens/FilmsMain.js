@@ -66,7 +66,6 @@ export default function FilmsMain() {
     );
 
 
-    console.log(popularMovie);
     return (
         <ScrollView>
             <View style={styles.filmsMainContainer} >

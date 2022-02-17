@@ -1,8 +1,11 @@
 import React from 'react'
-import { Image, View } from 'react-native'
-import loadingSpinner from "../../assets/images/loadingSpinner/spinner.svg"
+import { ActivityIndicator, View } from 'react-native'
 export default function LoadingImg() {
     return (
-        <View><Image source={loadingSpinner} /></View>
+        <View><ActivityIndicator size="large" color="pink" /></View>
+
+
+
     )
 }
+
