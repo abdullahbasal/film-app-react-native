@@ -50,9 +50,10 @@ export default function FilmsMain() {
         getUpComingMovieImg()
         getTopRatedMovieImg()
         getNowPlayingMovieImg()
+        console.log(popularMovie)
+
 
     }, []);
-
     const ItemRender = ({ img }) => (
         <View style={styles.imgView}>
             <TouchableOpacity>
@@ -132,6 +133,7 @@ const styles = StyleSheet.create({
 
     },
     imgView: {
+        flex: 1,
         height: 150,
         width: 150, marginRight: 10
     },

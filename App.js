@@ -14,7 +14,7 @@ const Tab = createBottomTabNavigator();
 //searchbar
 //assets kullanmadıklarını sil
 //fonts ekle
-
+// sanatçılar
 
 
 export default function App() {
